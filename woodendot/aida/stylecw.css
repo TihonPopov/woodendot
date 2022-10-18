@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: 1440px;
+    padding: 17px 20px;
+    border-bottom: 1px solid #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main{
+    
+    width: 100%;
+}
+
+.menu-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.menu-list a{
+    font-family: 'Cardo';
+    font-weight: 400px;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.empty{
+    width: 240px;
+}
+
+
+.container{
+    position: relative;
+    margin-top: 36px;
+    height: 698px;
+    background-image: url(images/2.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+    color: white;
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 27px;
+    line-height: 38px;
+    line-height: 121%;
+    letter-spacing: 0.2px;
+    text-align: center;
+  }
+
+.btn{
+    margin-top: 40px;
+    font-family: Cardo;
+    font-style: Bold;
+    font-size: 20px;
+    width:204px;
+    height: 33px;
+    top:-10px;
+    line-height: 20px;
+    line-height: 74%;
+    vertical-align: Top;
+    border: 1px solid #FFFFFF;
+    background: 0;
+    color: #fff
+  
+}
+
+
+.btn2{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    font-family: Palatino Linotype;
+    font-style: Regular;
+    font-size: 15px;
+    color: #fff;
+    line-height: 20px;
+    line-height: 100%;
+    align-items: center;
+    background:#050505;
+    justify-content: end;
+    display: flex;
+    justify-content: left;
+    margin-left: 0;
+    width: 324px;
+    height: 50px;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    text-align: center;
+}
+
+.icon{
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.first, .second, .three, .fourth{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.blok{
+    display: flex;
+    width: 100%;
+    
+}
+
+.blok img{
+    width: 100%;
+}
+
+
+
+.cloe{
+    display: flex;
+    width: 100%;
+    margin-top: 115px;
+}
+
+.desc{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ text-align: right;
+ margin-right: 48px;
+
+}
+
